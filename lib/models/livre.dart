@@ -1,13 +1,14 @@
+
 import 'package:flutter/material.dart';
 
 class Livre {
   final int id;
   final String titre;
   final String auteur;
-  final String genre;   // Roman, Science, Histoire, Jeunesse, Informatique
+  final String genre;
   final int annee;
-  final double note;    // sur 5
-  final Color couleur;  // couleur de la « couverture »
+  final double note;
+  final Color couleur;
   final bool nouveaute;
   bool lu;
   bool favori;
